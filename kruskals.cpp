@@ -75,3 +75,25 @@ int main()
     return 0;
 }
 
+
+OUTPUT:
+
+Enter no. of vertices:5
+
+Enter the adjacency matrix:
+0 10 0 30 100
+10 0 50 0 0
+0 50 0 20 10
+30 0 20 0 60
+100 0 10 60 0
+
+Enter the starting node:0
+
+Distance of node1=10
+Path=1<-0
+Distance of node2=50
+Path=2<-3<-0
+Distance of node3=30
+Path=3<-0
+Distance of node4=60
+Path=4<-2<-3<-0
