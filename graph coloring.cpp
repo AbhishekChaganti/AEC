@@ -60,3 +60,9 @@ if (!graphColoring(graph, m, 0, color))
 printf("Solution does not exist"); 
 return 0; 
 } 
+
+
+
+OUTPUT:
+Solution Exists: Following are the assigned colors
+ 1  2  3  2
